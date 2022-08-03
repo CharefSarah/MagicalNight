@@ -275,14 +275,19 @@ const musicInfo = [
   const playMusic = () => {
     isPlaying = true;
     audio.play();
-    playBtn.classList.replace("fa-pause-circle-o", "fa-play-circle");
+    playBtn.classList.replace("fa-play-circle", "fa-circle-pause");
   };
   
   function pauseMusic() {
     isPlaying = false;
     audio.pause();
-    playBtn.classList.replace("fa-pause-circle-o", "fa-play-circle");
+    playBtn.classList.replace("fa-circle-pause", "fa-play-circle");
   }
+  
+
+
+
+
   
   // timebar
   

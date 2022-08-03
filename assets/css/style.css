@@ -154,7 +154,7 @@ img {
     background-color: #080827c8;
     padding-top: 15px;
     border-radius: 31px;
-    height: 80%;
+    height: 85%;
 
   }
 
@@ -251,8 +251,8 @@ img {
   }
 
   .music-player.open .player-center {
-    height: 55px;
-    width: 55px;
+    height: 35px;
+    width: 5px;
     border-radius: 5px;
     position: absolute;
     transform: translate(-65px, 45px);
@@ -262,7 +262,7 @@ img {
   }
 
   .music-player.open .player-center img {
-    height: 55px;
+    height: 35px;
     width: 55px;
   }
 
@@ -304,8 +304,12 @@ img {
     bottom: -10px;
     width: 100%;
     left: 5px;
+
   }
 
+   .music-timebar{
+    margin-bottom: 20px!important;
+   }
   .music-player.open .music-timebar .music-current-length {
     border-radius: 1px;
     padding: 1px;
@@ -490,17 +494,20 @@ img {
   .music-info {
     display: flex;
     width: 100%;
-    height: 80px;
-    align-items: space-evenly;
+   
   }
 
-  .music-info .music-name {
-    font-size: 20px;
+
+
+  .music-name  {
+    font-size: 25px !important;
   }
 
-  .music-info .artist-name {
+  .artist-name {
     font-size: 15px;
-    color: #8B899E;
+    color: #8B899E !important;
+    margin-top: -10px;
+    margin-bottom: 10px;
   }
 
   .music-info .heart-btn i.fa {
@@ -548,14 +555,14 @@ img {
     justify-content: center;
     align-items: center;
     z-index: 8;
+    margin: auto;
     margin-top: -20px;
 
   }
 
 
-
   .form-control {
-    padding: 10px 25px;
+    padding: 10px 50px;
     border: none;
     background: -moz-linear-gradient(99deg, rgba(84, 235, 255, 1) 0%, #456aff 100%);
     background: -webkit-linear-gradient(99deg, rgba(84, 235, 255, 1) 0%, rgba(69, 106, 255, 1) 100%);
@@ -572,6 +579,7 @@ img {
   }
 
   .music-current-length-circle {
+
     position: absolute;
     top: 50%;
     transform: translate(0%, -50%);
@@ -609,13 +617,24 @@ img {
   .music-controls i.fa {
     cursor: pointer;
     font-size: 25px;
+
+  }
+
+  .music-controls{
+    color: #8B899E;
   }
 
   .music-controls div.active {
     position: relative;
-    color: #1db954;
+    color: #52D4FF;
   }
 
+
+  .fa-play-circle, .play-btn{
+    color: white !important;
+  }
+
+  
   .music-duration-time,
   .music-current-time {
     color: #8B899E;
