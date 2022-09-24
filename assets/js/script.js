@@ -16,12 +16,12 @@ const musicInfo = [
       liked: true
     },
     {
-      musicName: "Tu Phir Se Aana",
-      artistName: "Raftaar x Salim Merchant x Karma",
+      musicName: "Mystic Forest",
+      artistName: "Alexander Narakada x Magical Night",
       musicSrc:
-        "https://songs10.vlcmusic.com/download.php?track_id=34213&format=320",
+        "assets/music/medieval_chateau.mp3",
       musicPoster:
-        "https://1.bp.blogspot.com/-kX21dGUuTdM/X85ij1SBeEI/AAAAAAAAKK4/feboCtDKkls19cZw3glZWRdJ6J8alCm-gCNcBGAsYHQ/s16000/Tu%2BAana%2BPhir%2BSe%2BRap%2BSong%2BLyrics%2BBy%2BRaftaar.jpg"
+        "assets/images/3.jpg"
     },
     {
       musicName: "Naachne Ka Shaunq",
@@ -192,7 +192,8 @@ const musicInfo = [
   
     playlist.appendChild(playlistItem);
   });
-  
+
+
   const playlistItems = document.querySelectorAll(".playlist-item");
   playlistItems.forEach((item, index) => {
     item.onclick = () => {
