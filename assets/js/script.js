@@ -30,69 +30,7 @@ const musicInfo = [
       "assets/music/rainy_street.mp3",
       musicPoster:    "assets/images/4.png",
     },
-    {
-      musicName: "Mantoiyat",
-      artistName: "Raftaar x Nawazuddin Siddiqui",
-      musicSrc:
-        "https://songs10.vlcmusic.com/download.php?track_id=36593&format=320",
-      musicPoster:
-        "https://a10.gaanacdn.com/images/song/39/24225939/crop_480x480_1536749130.jpg"
-    },
-    {
-      musicName: "I'm ready",
-      artistName: "Raftaar x KR$NA",
-      musicSrc:
-        "https://songs10.vlcmusic.com/download.php?track_id=37975&format=320",
-      musicPoster:
-        "https://a10.gaanacdn.com/images/albums/90/2009690/crop_480x480_2009690.jpg"
-    },
-    {
-      musicName: "Microphone Check",
-      artistName: "Raftaar",
-      musicSrc:
-        "https://songs10.vlcmusic.com/download.php?track_id=33726&format=320",
-      musicPoster:
-        "https://1.bp.blogspot.com/-3xC8UxACBBs/X7O5YLd5Y0I/AAAAAAAAEdc/Jhf3_uWkhBQH3grgqD878SHr-Aiz4L-uACLcBGAsYHQ/w640/microphone%2Bcheck.webp"
-    },
-    {
-      musicName: "BlackSheep",
-      artistName: "Raftaar",
-      musicSrc:
-        "https://songs10.vlcmusic.com/download.php?track_id=35459&format=320",
-      musicPoster:
-        "http://a10.gaanacdn.com/images/albums/31/3840631/crop_480x480_3840631.jpg"
-    },
-    {
-      musicName: "Saath Ya Khilaaf ",
-      artistName: "Raftaar x KR$NA",
-      musicSrc:
-        "https://songs10.vlcmusic.com/download.php?track_id=32599&format=320",
-      musicPoster:
-        "https://1.bp.blogspot.com/-nIkGlZdgqII/X3PvZQk5VYI/AAAAAAAADrQ/Rx7lCvdcuGY4Q2PnyMwJKYVVz9rxXEE3wCLcBGAsYHQ/w640/saath%2Bya%2Bkhilaaf.jpg"
-    },
-    {
-      musicName: "Dilli Waali Baatcheet",
-      artistName: "Raftaar",
-      musicSrc:
-        "https://songs10.vlcmusic.com/download.php?track_id=21659&format=320",
-      musicPoster:
-        "https://a10.gaanacdn.com/images/song/49/28009549/crop_480x480_1566383860.jpg"
-    },
-    {
-      musicName: "Damn",
-      artistName: "Raftaar x kr$na",
-      musicSrc:
-        "https://songs10.vlcmusic.com/download.php?track_id=36924&format=320",
-      musicPoster: "https://i.ytimg.com/vi/yBRKqRc-vyQ/maxresdefault.jpg"
-    },
-    {
-      musicName: "Feeling You",
-      artistName: "Raftaar x Harjas",
-      musicSrc:
-        "https://songs10.vlcmusic.com/download.php?track_id=27145&format=320",
-      musicPoster:
-        "https://a10.gaanacdn.com/gn_img/albums/YoEWlabzXB/oEWlj5gYKz/size_xxl_1586752323.webp"
-    }
+    
   ];
   
   // playlist
