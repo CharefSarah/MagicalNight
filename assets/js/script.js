@@ -24,11 +24,11 @@ const musicInfo = [
         "assets/images/3.jpg"
     },
     {
-      musicName: "Naachne Ka Shaunq",
-      artistName: "Raftaar x Brobha V",
+      musicName: "Night Walk",
+      artistName: "Alexander Narakada x Magical Night",
       musicSrc:
-        "https://songs10.vlcmusic.com/download.php?track_id=36589&format=320",
-      musicPoster: "https://i.ytimg.com/vi/QvswgfLDuPg/maxresdefault.jpg"
+      "assets/music/rainy_street.mp3",
+      musicPoster:    "assets/images/4.png",
     },
     {
       musicName: "Mantoiyat",
