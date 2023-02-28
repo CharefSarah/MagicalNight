@@ -4,17 +4,10 @@ const musicInfo = [
     artistName: "Magical Night X Alexander Nakarada",
     musicSrc:
       "assets/music/16 alexander-nakarada-kevin-macleod-tavern-brawl.mp3",
-    musicPoster: "assets/images/1.jpg",
+    musicPoster: "assets/images/level11.jpg",
     liked: false
   },
-    {
-      musicName: "Countryside Field",
-      artistName: "Magical Night X Alexander Nakarada",
-      musicSrc:
-        "assets/music/10 11 god-rest-ye-merry-celtishmen.mp3",
-      musicPoster: "assets/images/level2.jpg",
-      liked: true
-    },
+  
     {
       musicName: "Mystic Forest",
       artistName: "Alexander Narakada x Magical Night",
